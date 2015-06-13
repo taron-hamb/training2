@@ -1,0 +1,611 @@
+body{
+    background-color: #666;
+    color:#fff;
+}
+.general_box{
+      float:left;
+      width:100%;
+  }
+.general{
+    margin-left: 50%;
+    position: relative;
+    margin-top:20px;
+    left: -215px;
+    float: left;
+    background-image: url("../../images/background/form_bg.png");
+    padding: 30px;
+    width: 370px;
+}
+#login_form, #registration_form{
+    margin-left: 50%;
+    position: relative;
+    margin-top:20px;
+    left: -132px;
+    float: left;
+    background-image: url("../../images/background/form_bg.png");
+    padding: 30px;
+}
+.messages_box{
+    margin-left: 50%;
+    position: relative;
+    margin-top:20px;
+    left: -480px;
+    float: left;
+    background-image: url("../../images/background/form_bg.png");
+    padding: 30px;
+    width: 900px;
+}
+.images_box{
+    margin-left: 50%;
+    position: relative;
+    margin-top: 20px;
+    left: -355px;
+    float: left;
+    background-image: url("../../images/background/form_bg.png");
+    padding: 30px;
+    width: 650px;
+}
+#login_bg{
+    color: #ccc;
+    display: block !important;
+    position: absolute !important;
+    z-index: 1;
+    margin: 3px 5px;
+    width: 16px;
+    height: 16px;
+    font-size: 16px;
+    text-align: center;
+    background-image: url("../../images/icon/user_icon.png");
+}
+#date_bg{
+    color: #ccc;
+    display: block !important;
+    position: absolute !important;
+    z-index: 1;
+    margin: 3px 5px;
+    width: 16px;
+    height: 16px;
+    font-size: 16px;
+    text-align: center;
+    background-image: url("../../images/icon/date_icon.png");
+}
+#gender_bg{
+    color: #ccc;
+    display: block !important;
+    position: absolute !important;
+    z-index: 1;
+    margin: 3px 5px;
+    width: 16px;
+    height: 16px;
+    font-size: 16px;
+    text-align: center;
+    background-image: url("../../images/icon/gender_icon.png");
+}
+#password_bg{
+    color: #ccc;
+    display: block !important;
+    position: absolute !important;
+    z-index: 1;
+    margin: 3px 5px;
+    width: 16px;
+    height: 16px;
+    font-size: 16px;
+    text-align: center;
+    background-image: url("../../images/icon/password_icon.png");
+}
+#email_bg{
+    color: #ccc;
+    display: block !important;
+    position: absolute !important;
+    z-index: 1;
+    margin: 3px 5px;
+    width: 16px;
+    height: 16px;
+    font-size: 16px;
+    text-align: center;
+    background-image: url("../../images/icon/email_icon.png");
+}
+#country_bg{
+    color: #ccc;
+    display: block !important;
+    position: absolute !important;
+    z-index: 1;
+    margin: 3px 5px;
+    width: 16px;
+    height: 16px;
+    font-size: 16px;
+    text-align: center;
+    background-image: url("../../images/icon/country_icon.png");
+}
+#login ,#password{
+    padding-left: 25px !important;
+}
+
+#registration_link{
+    float: right;
+}
+input[type=text],[type=email],[type=password]{
+    width: 198px;
+    padding-left: 25px !important;
+    padding-right: 25px;
+}
+select[name=bdate]{
+    width:100%;
+    height: 20px;
+    padding-left: 25px !important;
+    padding-right: 25px;
+    color: #A9A9A9;
+}
+#login_button, #registration_button, input[type=submit], input[type=button]{
+    float: right;
+    background-color: #4d90fe;
+    height: 30px;
+    color: #ffffff;
+    border: 0;
+    cursor: pointer;
+}
+#login_button:hover, #registration_button:hover, input[type=submit]:hover, input[type=button]:hover{
+    float: right;
+    background-color: #64a4ff;
+    height: 30px;
+    color: #ffffff;
+    border: 0;
+    cursor: pointer;
+}
+#country{
+    width: 198px;
+    color: #BBA9A9;
+    padding: 1px 40px 1px 22px;
+}
+
+a[name='log_out']{
+    float: right;
+    background-color:#4d90fe;
+    color: #ffffff;
+    padding: 10px;
+    text-decoration: none;
+}
+a[name='log_out']:hover{
+    float: right;
+    background-image: url("../../images/background/form_bg.png");
+    color: #ffffff;
+    padding: 10px;
+    text-decoration: none;
+}
+.log_out{
+     float: left;
+     width: 100%;
+ }
+
+.menu{
+    float: left;
+    width: 100%;
+}
+.menu ul{
+    float: left;
+    width: 314px;
+    margin-left: 50%;
+    position: relative;
+    left: -157px;
+    padding: 0;
+}
+ul, li{
+    float: left;
+}
+ul a li{
+    background-image: url("../../images/background/form_bg.png");
+    padding: 10px;
+}
+ul a li:hover{
+    background-color:#4d90fe;
+    padding: 10px;
+}
+ul a{
+    color: #ffffff;
+    text-decoration: none;
+}
+ul a:hover{
+    color: #ffffff;
+    text-decoration: none;
+    background-color: #4d90fe;
+}
+.has_new_message li{
+    background-color: indianred;
+}
+.new_message{
+    background-color: indianred;
+}
+.hide{
+    display: none;
+}
+.show{
+    display: block;
+}
+.receive_message, .send_message{
+    cursor: pointer;
+    padding: 6px;!important;
+}
+
+.message_receive{
+    cursor: pointer;
+    float: left;
+    width: 100%;
+}
+.message_send{
+    cursor: pointer;
+    float:right;
+    width: 100%;
+}
+.message_send, .message_receive{
+    background-image: url("../../images/background/form_bg.png");
+}
+.receive{
+    float:left;
+    padding: 10px;
+}
+.send{
+    float:right;
+    padding: 10px;
+}
+.image{
+    float: left;
+    padding: 2px;
+    height: 100px;
+}
+textarea{
+    width: 100%;
+}
+.reply{
+    cursor: pointer;
+}
+#receive_messages_box, #send_messages_box{
+    float:left;
+    padding: 10px;
+    min-width: 274px;
+}
+
+#messages{
+    float:right;
+    width:580px;
+}
+
+#dialog_box{
+    float:left;
+    padding: 10px;
+    width: 567px;
+}
+
+#upload_image {
+    float: left;
+    width: 114px;
+    height:172px;
+    margin:0 2px 5px 2px
+}
+
+#upload_image input[type=file] {
+    cursor: pointer;
+    display: block !important;
+    width: 114px !important;
+    height: 68px !important;
+    opacity: 0 !important;
+    overflow: hidden !important;
+
+}
+#upload_image form{
+
+    background-image: url("../../images/button/choose_file.jpg");
+}
+#upload_button{
+    margin-top: 2px;
+    width: 114px;
+}
+#images{
+}
+
+#required{
+    float: right;
+    color: #ccc;
+    display: block !important;
+    position: absolute !important;
+    z-index: 1;
+    margin: -18px 0px 0px 177px;
+    width: 16px;
+    height: 16px;
+    font-size: 16px;
+    text-align: center;
+    background-image: url("../../images/icon/required.png");
+}
+.incorrect_hide{
+    display:none;
+}
+.incorrect{
+    color: #ccc;
+    display: block !important;
+    position: absolute !important;
+    z-index: 1;
+    margin: -18px 0px 0px 177px;
+    width: 16px;
+    height: 16px;
+    background-image: url("../../images/icon/required.png");
+}
+
+.gender_incorrect{
+    color: #ccc;
+    display: block !important;
+    position: absolute !important;
+    z-index: 1;
+    margin: 2px 0px 0px 177px;
+    width: 16px;
+    height: 16px;
+    background-image: url("../../images/icon/required.png");
+}
+
+.delete input ,.delete input:hover {
+    float:left;
+}
+
+.is_profile_picture{
+    display: none;
+}
+
+.indianred_line{
+    float: left;
+    width:100%;
+    background-color: indianred;
+    height: 6px;
+}
+.blue_line{
+    float: left;
+    width:100%;
+    background-color: #4d90fe;
+    height: 6px;
+}
+
+.one_image_box{
+    float: left;
+    margin:0 2px 5px 2px;
+    background-image: url("../../images/background/form_bg.png")
+}
+form{
+    margin-bottom: 0;
+}
+.no_picture_icon{
+    display: inline-block;!important;
+    padding: 4px;!important;
+    margin: 0 0.5rem 0 0.5rem;!important;
+    background-color: #fff;!important;
+    line-height: 0;!important;
+    -webkit-transition: background-color 0.1s ease-out;!important;
+    -moz-transition: background-color 0.1s ease-out;!important;
+    -o-transition: background-color 0.1s ease-out;!important;
+    transition: background-color 0.1s ease-out;!important;
+    -webkit-border-radius: 6px;!important;
+    -moz-border-radius: 6px;!important;
+    -ms-border-radius: 6px;!important;
+    -o-border-radius: 6px;!important;
+    border-radius: 6px;!important;
+}
+
+/* Jquery Datetime */
+.datepick {
+    background-color: #fff;
+    color: #000;
+    border: 1px solid #444;
+    border-radius: 0.25em;
+    -moz-border-radius: 0.25em;
+    -webkit-border-radius: 0.25em;
+    font-family: Arial,Helvetica,Sans-serif;
+    font-size: 90%;
+}
+.datepick-rtl {
+    direction: rtl;
+}
+.datepick-popup {
+    z-index: 1000;
+}
+.datepick-disable {
+    position: absolute;
+    z-index: 100;
+    background-color: white;
+    opacity: 0.5;
+    filter: alpha(opacity=50);
+}
+.datepick a {
+    color: #fff;
+    text-decoration: none;
+}
+.datepick a.datepick-disabled {
+    color: #888;
+    cursor: auto;
+}
+.datepick button {
+    margin: 0.25em;
+    padding: 0.125em 0em;
+    background-color: #fcc;
+    border: none;
+    border-radius: 0.25em;
+    -moz-border-radius: 0.25em;
+    -webkit-border-radius: 0.25em;
+    font-weight: bold;
+}
+.datepick-nav, .datepick-ctrl {
+    float: left;
+    width: 100%;
+    background-color: #000;
+    color: #fff;
+    font-size: 90%;
+    font-weight: bold;
+}
+.datepick-ctrl {
+    background-color: indianred;
+}
+.datepick-cmd {
+    width: 30%;
+}
+.datepick-cmd:hover {
+    background-color: #777;
+}
+.datepick-ctrl .datepick-cmd:hover {
+    background-color: #f08080;
+}
+.datepick-cmd-prevJump, .datepick-cmd-nextJump {
+    width: 8%;
+}
+a.datepick-cmd {
+    height: 1.2em;
+}
+button.datepick-cmd {
+    text-align: center;
+}
+.datepick-cmd-prev, .datepick-cmd-prevJump, .datepick-cmd-clear {
+    float: left;
+    padding-left: 2%;
+}
+.datepick-cmd-current, .datepick-cmd-today {
+    float: left;
+    width: 35%;
+    text-align: center;
+}
+.datepick-cmd-next, .datepick-cmd-nextJump, .datepick-cmd-close {
+    float: right;
+    padding-right: 2%;
+    text-align: right;
+}
+.datepick-rtl .datepick-cmd-prev, .datepick-rtl .datepick-cmd-prevJump,
+.datepick-rtl .datepick-cmd-clear {
+    float: right;
+    padding-left: 0%;
+    padding-right: 2%;
+    text-align: right;
+}
+.datepick-rtl .datepick-cmd-current, .datepick-rtl .datepick-cmd-today {
+    float: right;
+}
+.datepick-rtl .datepick-cmd-next, .datepick-rtl .datepick-cmd-nextJump,
+.datepick-rtl .datepick-cmd-close {
+    float: left;
+    padding-left: 2%;
+    padding-right: 0%;
+    text-align: left;
+}
+.datepick-month-nav {
+    float: left;
+    background-color: #777;
+    text-align: center;
+}
+.datepick-month-nav div {
+    float: left;
+    width: 12.5%;
+    margin: 1%;
+    padding: 1%;
+}
+.datepick-month-nav span {
+    color: #888;
+}
+.datepick-month-row {
+    clear: left;
+}
+.datepick-month {
+    float: left;
+    width: 15em;
+    border: 1px solid #444;
+    text-align: center;
+}
+.datepick-month-header, .datepick-month-header select, .datepick-month-header input {
+    height: 1.5em;
+    background-color: #444;
+    color: #fff;
+    font-weight: bold;
+}
+.datepick-month-header select, .datepick-month-header input {
+    height: 1.4em;
+    margin: 0em;
+    padding: 0em;
+    border: none;
+    font-size: 100%;
+    cursor: pointer;
+}
+.datepick-month-header input {
+    position: absolute;
+    display: none;
+}
+.datepick-month table {
+    width: 100%;
+    border-collapse: collapse;
+}
+.datepick-month thead {
+    border-bottom: 1px solid #aaa;
+}
+.datepick-month th, .datepick-month td {
+    margin: 0em;
+    padding: 0em;
+    font-weight: normal;
+    text-align: center;
+}
+.datepick-month th {
+    border: 1px solid #777;
+}
+.datepick-month th, .datepick-month th a {
+    background-color: #777;
+    color: #fff;
+}
+.datepick-month td {
+    background-color: #eee;
+    border: 1px solid #aaa;
+}
+.datepick-month td.datepick-week {
+    border: 1px solid #777;
+}
+.datepick-month td.datepick-week * {
+    background-color: #777;
+    color: #fff;
+    border: none;
+}
+.datepick-month a {
+    display: block;
+    width: 100%;
+    padding: 0.125em 0em;
+    background-color: #eee;
+    color: #000;
+    text-decoration: none;
+}
+.datepick-month span {
+    display: block;
+    width: 100%;
+    padding: 0.125em 0em;
+}
+.datepick-month td span {
+    color: #888;
+}
+.datepick-month td .datepick-other-month {
+    background-color: #fff;
+}
+.datepick-month td .datepick-weekend {
+    background-color: #ddd;
+}
+.datepick-month td .datepick-today {
+    background-color: #f0c0c0;
+}
+.datepick-month td .datepick-highlight {
+    background-color: #f08080;
+}
+.datepick-month td .datepick-selected {
+    background-color: #777;
+    color: #fff;
+}
+.datepick-month th.datepick-week {
+    background-color: #777;
+    color: #fff;
+}
+.datepick-status {
+    clear: both;
+    background-color: #ddd;
+    text-align: center;
+}
+.datepick-clear-fix {
+    clear: both;
+}
+/* End Jquery Datetime */
+
+
+
